@@ -17,6 +17,8 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -213,6 +215,12 @@ h1, .vcenter {
   -o-transform: none;
   transform: none;
 }
+
+.tituloSlide{
+  
+  text-align:center;
+}
+
 
 h2 {
   font-size: 2.25em;
