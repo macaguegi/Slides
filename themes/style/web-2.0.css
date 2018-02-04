@@ -217,8 +217,18 @@ h1, .vcenter {
 }
 
 .tituloSlide{
-  
+
   text-align:center;
+}
+
+.fotoPresentacion{
+  float: left;
+  width: 45%;
+  padding: 50px 0 0 50px;
+}
+
+.agenda{
+  padding-left:15%
 }
 
 
