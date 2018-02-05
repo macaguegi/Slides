@@ -47,75 +47,136 @@
 
     </section>
 
-    <section class="slide">
-        <div class="tituloSlide">
-          <h2>¿Quienes somos?</h2>
-        </div>
-        <div class="fotoPresentacion">
-          <h3>Juan Sebastián Parada Celis</h3>
-          Estudiante de Ingeniería de sistemas de la Universidad Distrital.
-          <img class="img-circle" src="img/sebastauro.jpg">
-        </div>
-        <div class="fotoPresentacion">
-          <h3>Juan Sebastián Parada Celis</h3>
-          Estudiante de Ingeniería de sistemas de la Universidad Distrital.
-          <img class="img-circle" src="img/sebastauro.jpg">
-        </div>
-    </section>
 
     <section class="slide">
       <div class="tituloSlide">
-        <h2>Agenda</h2>
+        <h2>¿Quienes somos?</h2>
       </div>
 
-<<<<<<< HEAD
-      <div style="agenda">
-        <h3><b>Introducción</b></h3>
-=======
       <div style="float: left; width: 45%; padding: 50px 0 0 50px;">
         <h3>Juan Sebastián Parada Celis</h3>
         Estudiante de Ingeniería de sistemas de la Universidad Distrital.
         <img class="img-circle" src="img/sebastauro.jpg">
       </div>
       <div style="float: left; width: 45%; padding: 50px 0 0 50px;">
-        <h3>María Camila Guerrero Giraldo</h3>
+        <h3>Ma. Camila Guerrero Giraldo</h3>
         Estudiante de Ingeniería de sistemas de la Universidad Distrital.
         <img class="img-circle" src="img/camilala.jpg">
       </div>
     </section>
->>>>>>> 17ff545e22a0af50bd3d457ed97fffeb0b1cc44c
 
-        <ul>
-          <li>¿Qué es programación funcional?</li>
-          <li>Lenguajes de programación funcional</li>
-          <li>Ejemplos programación funcional lenguajes</li>
-          <li>Python en programación funcional</li>
-        </ul>
-      </div>
-    </section>
+
+
+
 
     <section class="slide">
       <div class="tituloSlide">
         <h2>Agenda</h2>
       </div>
-
-      <div style="padding-left:15%">
-        <h3><b>Introducción</b></h3>
-
         <ul>
           <li>¿Qué es programación funcional?</li>
           <li>Lenguajes de programación funcional</li>
           <li>Ejemplos programación funcional lenguajes</li>
           <li>Python en programación funcional</li>
+          <li>Control de flujo</li>
+          <li>Callables</li>
+          <li>Evaluación Perezosa</li>
+          <li>Funciones de orden superior</li>
+          <li>Aplicaciones de la PF</li>
+          <li>Feedback</li>
         </ul>
+
+      </section>
+
+    <section class = "slide">
+      <div style="padding-left:15%" class="tituloSlide">
+        <h2><b>Introducción</b></h2>
       </div>
     </section>
 
 
-    <section id="slide">
-      <h2> Objetivos (CAmbio sencillo)</h2>
+    <section class="slide">
+      <div style="padding-left:15%" class="tituloSlide">
+        <h2> Objetivos</h2>
+      </div>
     </section>
 
+    <section class="slide">
+      <div style="padding-left:15%" class="tituloSlide">
+        <h2> ¿Qué es programación funcional?</h2>
+      </div>
+      <img src="" alt="">
+    </section>
+
+    <section class="slide">
+      <div style="padding-left:15%" class="tituloSlide">
+        <center><h1> CALLABLES</h1></center>
+      </div>
+      <img src="img/call.png" alt="Llamado a un contacto">
+    </section>
+
+    <section class="slide">
+      <div style="padding-left:15%" class="tituloSlide">
+        <h2> ¿Qué es un callable?</h2>
+      </div>
+      <div class="boxed">
+        <center>Es cualquier cosa que se encuentre en la capacidad de ser llamada.</center>
+      </div>
+
+      <div>
+        <img src="img/funcion.jpg" alt="Definición funcion python" style="float: left; width: 35%; padding: 30px 0 0 10px;">
+        <img src="img/closure.png" alt="Definición funcion python" style="float: left; width: 30%; padding: 30px 0 0 50px;">
+        <img src="img/lambda.png" alt="Definición funcion python" style="float: right; width: 25%; padding: 30px 0 0 10px;">
+      </div>
+    </section>
+
+  <se class="slide">
+    <div class="tituloSlide">
+      <h2>Funciones puras</h2>
+    </div>
+    <p>Una función pura es una función donde el valor de retorno solo está determinado por sus valores de entrada, sin efectos secundarios observables.</p>
+    <img src="img/coseno.png" alt="Función coseno en el plano">
+  </se>
+
+  <se class="slide">
+    <div class="tituloSlide">
+      <h2>Funciones puras vs Funciones no puras</h2>
+    </div>
+    <img src="img/ejemplo1.1.png" alt="Definición funcion python" style="float: top; width: 55%; padding: 30px 0 0 50px;">
+    <img src="img/ejemplo1.png" alt="Ejemplo función no pura" style="float: bottom; width: 35%; padding: 30px 0 0 50px;">
+  </se>
+
+  <se class="slide">
+    <div class="tituloSlide">
+      <h2>Funciones convencionales y Lambdas</h2>
+    </div>
+    <p>Las funciones convencionales son los callables más conocidos pues son bloques de código organizado y reutilizable que se usa para realizar una sola acción relacionada. Son las funciones
+    más comunes y de uso cotidiano. Por otro lado las lambdas son funciones muy simples que se pueden escribir en una
+    sola línea con una sintaxis característica.</p>
+    <di>
+      <p>Una función lambda se escribe de la siguiente manera :</p>
+      <center><p class="codigo">nombre_funcion = lambda argumentos : resultado</p></center>
+    </di>
+    <div>
+    <img src="img/ejemplo2.1.png" alt="función convencional" style="float: left; width: 35%; padding: 30px 0 0 50px;">
+    <img src="img/ejemplo2.2.png" alt="lambda" style="float: right; width: 45%; padding: 30px 0 0 50px;">
+  </div>
+  </se>
+
+
+  <se class="slide">
+    <div class="tituloSlide">
+      <h2>Closures e instancias</h2>
+    </div>
+    <div>
+    <img src="img/closureej.png" alt="closure" style="float: left; width: 35%; padding: 30px 0 0 50px;">
+    <img src="img/instancia.png" alt="instancia" style="float: right; width: 35%; padding: 30px 0 0 50px;">
+  </div>
+  <div><p style="float: left; width: 35%; padding: 30px 0 0 50px;"> Función con atributos ligados</p>
+  <p style="float: left; width: 35%; padding: 30px 0 0 50px;"> Atributos con funciones ligadas</p>
+</div>
+
+  </se>
     <!-- End slides. -->
 
     <!-- Begin extension snippets. Add or remove as needed. -->

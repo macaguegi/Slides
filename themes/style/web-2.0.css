@@ -231,6 +231,23 @@ h1, .vcenter {
   padding-left:15%
 }
 
+.boxed {
+  border: 1px #ccccff ;
+  background-color: #ccccff;
+  color : white;
+  border-radius: 25px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+
+}
+
+  .codigo{
+    font-family: monospace;
+    font-size: 1em;
+    color : #006666;
+  }
 
 h2 {
   font-size: 2.25em;
@@ -309,8 +326,9 @@ li > ol, li > ul {
   width: 100%;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: "Arial", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
 h1 {
